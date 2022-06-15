@@ -13,8 +13,8 @@ Machine Learning Course - Final Project
 &rarr; `label = 0` corresponds to the "Pneumonia" class.
 &rarr; `label = 1` corresponds to the "Normal" class.
   
-**Secondly** we make a simple plot to take a look at its distribution
-![data distribution](./img/skewed_data.png)
+**Secondly** we make a simple plot to take a look at its distribution  
+![data distribution](./img/skewed_data.png)  
 We can notice that the data is fairly biased to `Pneumonia`. This means a few things:
 * Results will inevitably be biased to Pneumonia.
 * Overfitting will eventually occur.
