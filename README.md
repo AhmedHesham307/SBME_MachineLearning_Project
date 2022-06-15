@@ -36,7 +36,7 @@ Since our data is of type `image`, the data augmentation methods need to fit the
 4. _AutoAugment_ (DeepAugment) &rarr; errors in importing dependencies
 
 #### Choice of number of PCA components
-![pca components](./img/pca_components_plot.png)
+![pca components](./img/pca_components_plot.png)  
 According to the cumulative sum plot of the obtained PCA components, we can see that the variance is almost a constant straight line after roughly 1500 components.  
 We picked `PCA(n_components = 1000)`
 
